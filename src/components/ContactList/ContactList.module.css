@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 5px 5px 10px;
+    width: 98%;
+    border: 1px solid grey;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: rgb(230, 230, 232);
+  }
+
+.button {
+    padding: 5px 10px;
+    width: 20%;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(197, 197, 215);
+    border-radius: 12px;
+    border: 1px solid grey;
+    transition: .5s;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.35);
+    text-shadow: 0 0 10px rgba(0,0,0,0.35);
+    border: 1px solid grey;
+    transform: scale(1.1);
+    cursor: pointer;
+}

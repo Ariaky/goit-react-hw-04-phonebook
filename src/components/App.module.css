@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: rgb(237, 236, 239);
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+}
